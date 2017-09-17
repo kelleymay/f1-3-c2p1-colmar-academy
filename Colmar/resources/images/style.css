@@ -1,0 +1,239 @@
+.nav {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  height: 64px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  border-bottom: solid 5px #A1C1BE;
+}
+.nav-logo {
+  display: flex;
+  color: #A1C1BE;
+  height: 32px;
+  padding-left: 24px;
+  align-items: center;
+  text-transform: capitalize;
+}
+.nav-button-container {
+  display: flex;
+  align: right;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #000;
+  padding-right: 24px;
+  align-items: center;
+  float: right;
+}
+h2{
+  font-family: "Montserrat", sans-serif;
+  color: #A1C1BE;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: "montserrat", sans-serif;
+  font-weight: 400;
+  color: #59554E;
+}
+p {
+  font-family: "merriweather", serif;
+  font-size: 13px;
+  color: #59554E;
+}
+a {
+  font-family: "merriweather", serif;
+  color: #A1C1BE;
+  font-size: 12px;
+}
+a:hover {
+  color:#59554E;
+}
+
+
+.section-one {
+  display: flex;
+  width: 100%;
+  background-color: #Fff;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px #A1C1BE;
+}
+.section-one h1 {
+  font-family: "montserrat", sans-serif;
+  color: #A1C1BE;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.section-one p {
+  font-family: "Merriweather", serif;
+  color: #59554E;
+}
+.sect-one-content {
+  display: inline-flex;
+  padding: 32px, 24px;
+  justify-content: center;
+  align-items: center;
+  width: 100% auto;
+  align-items: center;
+  justify-content: center;
+}
+.sect-one-content img {
+  padding: 32px, 24px;
+  height: 331px;
+  width: 489.6px;
+}
+.sect-one-text {
+  display: block;
+  padding-left: 24px;
+}
+.sect-one-text a {
+  display: flex;
+  width: 200px;
+  height: 40px;
+  padding: 8px, 0px;
+  background-color: #A1C1BE;
+  text-transform: none;
+  text-decoration: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: "montserrat", sans-serif;
+}
+.sect-one-text a:hover {
+  color: #59554E;
+}
+
+
+.sect-two {
+  background-color: light pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+.sect-two h2{
+  font-family: "Montserrat", sans-serif;
+  color: #A1C1BE;
+  text-transform: uppercase;
+}
+.sect-two h3 {
+  font-family: "montserrat", sans-serif;
+  font-weight: 400;
+  color: #59554E;
+}
+.sect-two p {
+  font-family: "merriweather", serif;
+  font-size: 13px;
+  color: #59554E;
+}
+.sect-two a {
+  font-family: "merriweather", serif;
+  color: #A1C1BE;
+  font-size: 12px;
+}
+.sect-two a:hover {
+  color:#59554E;
+}
+.sect-two-col-1 {
+  display: block;
+  padding: 20px;
+  width: 60%;
+  align-items: center;
+  margin-right: 10px;
+  color: #59554E;
+}
+.sect-two-col-1 strong{
+  color: #A1C1BE;
+}
+.sect-two-col-1 img{
+  width: 60%;
+  align: center;
+}
+.sect-two-col-2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 32px, 24px;
+}
+.sect-two-col-2-boxes {
+  display: inline-flex;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding-left: 16px;
+  border-bottom: solid 1px #A1C1BE;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-left: 1px solid #A1C1BE;
+}
+.sect-two-col-2-boxes-text {
+  display: block;
+  margin-right: 16px;
+  height: auto;
+  width: 65%;
+  align-content: center;
+  align-items: center;
+}
+.sect-two-col-2-boxes-image {
+  height: auto;
+  width: 35%;
+  margin-left: 16px;
+}
+.sect-two-col-2 img {
+  height: 95.2px;
+  width: 95.2px;
+}
+
+
+.sect-three {
+  display: flex;
+  width: 100%;
+  padding: 32px, 72px;
+  background-color: #A1C1BE;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.sect-three-content {
+  display: flex;
+  background-color: #A1C1BE;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sect-three-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 32px;
+}
+.sect-three-boxes-container {
+  display: flex;
+  width: 800px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 32px;
+  margin-left: 72px;
+  margin-right: 72px;
+}
+.sect-three-content-boxes {
+  display: block;
+  background-color: white;
+  padding: 20px;
+  width: 200px;
+  height: 250px;
+  margin-bottom: 32px;
+  padding: 24px;
+}
+.sect-three-content-boxes img{
+  width: 200px;
+}
